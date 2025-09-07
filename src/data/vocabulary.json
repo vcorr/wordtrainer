@@ -1,0 +1,107 @@
+[
+  {
+    "english": "famous",
+    "finnish": "kuuluisa",
+    "difficultyLevel": 1,
+    "category": "adjective",
+    "contextSentence": "Finland is _______ for its beautiful forests."
+  },
+  {
+    "english": "a rock",
+    "finnish": "kallio",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "There is a large _______ in the garden."
+  },
+  {
+    "english": "sacred",
+    "finnish": "pyhä",
+    "difficultyLevel": 2,
+    "category": "adjective",
+    "contextSentence": "The church is a _______ place."
+  },
+  {
+    "english": "a continent",
+    "finnish": "maanosa",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "Europe is _______ with many countries."
+  },
+  {
+    "english": "by area",
+    "finnish": "pinta-alaltaan",
+    "difficultyLevel": 3,
+    "category": "phrase",
+    "contextSentence": "Russia is the largest country _______."
+  },
+  {
+    "english": "a capital",
+    "finnish": "pääkaupunki",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "Helsinki is _______ of Finland."
+  },
+  {
+    "english": "beautiful",
+    "finnish": "kaunis",
+    "difficultyLevel": 1,
+    "category": "adjective",
+    "contextSentence": "The sunset was _______."
+  },
+  {
+    "english": "important",
+    "finnish": "tärkeä",
+    "difficultyLevel": 1,
+    "category": "adjective",
+    "contextSentence": "Education is very _______."
+  },
+  {
+    "english": "difficult",
+    "finnish": "vaikea",
+    "difficultyLevel": 1,
+    "category": "adjective",
+    "contextSentence": "The math problem was _______."
+  },
+  {
+    "english": "a forest",
+    "finnish": "metsä",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "We walked through the dark _______."
+  },
+  {
+    "english": "a lake",
+    "finnish": "järvi",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "Finland has thousands of _______."
+  },
+  {
+    "english": "a student",
+    "finnish": "opiskelija",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "She is _______ at the university."
+  },
+  {
+    "english": "to study",
+    "finnish": "opiskella",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "I need _______ for the exam."
+  },
+  {
+    "english": "a school",
+    "finnish": "koulu",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "The children go to _______ every day."
+  },
+  {
+    "english": "a family",
+    "finnish": "perhe",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "My _______ lives in Tampere."
+  }
+]
