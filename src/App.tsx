@@ -32,15 +32,25 @@ function App() {
     setShowHint(false)
     
     if (isCorrect) {
-      setFeedback('✅ Correct! Well done!')
+      const points = showHint ? 5 : 10
+      const autoAdvanceMessage = currentWordIndex < VOCABULARY_PAIRS.length - 1 ? ' • Auto-advancing...' : ''
+      setFeedback(`✅ Correct! +${points} points${autoAdvanceMessage}`)
       setGameState(prev => ({
         ...prev,
-        currentScore: prev.currentScore + 10,
+        currentScore: prev.currentScore + points,
         streak: prev.streak + 1,
         correctAnswers: prev.correctAnswers + 1,
         totalWordsAnswered: prev.totalWordsAnswered + 1,
         wordsLearned: [...prev.wordsLearned, currentPair.english]
       }))
+      
+      // Auto-advance to next word after showing feedback (for smoother mobile flow)
+      setTimeout(() => {
+        if (currentWordIndex < VOCABULARY_PAIRS.length - 1) {
+          nextWord()
+        }
+      }, 1500) // 1.5 second delay to show feedback
+      
     } else {
       setFeedback(`❌ Incorrect. The correct answer was: ${currentPair.english}`)
       setGameState(prev => ({
@@ -269,7 +279,12 @@ function App() {
               boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
               transition: 'all 0.2s ease'
             }}
-            onKeyPress={(e) => e.key === 'Enter' && handleSubmitAnswer()}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && userAnswer.trim()) {
+                e.preventDefault()
+                handleSubmitAnswer()
+              }
+            }}
             onFocus={(e) => {
               (e.target as HTMLElement).style.borderColor = 'var(--primary-blue)'
               ;(e.target as HTMLElement).style.boxShadow = '0 0 0 3px rgba(0, 102, 204, 0.1)'
@@ -282,29 +297,35 @@ function App() {
           <button
             data-testid="submit-btn"
             onClick={handleSubmitAnswer}
+            disabled={!userAnswer.trim()}
             style={{
               padding: window.innerWidth <= 480 ? '1rem 2rem' : '1.2rem 2.5rem',
               fontSize: window.innerWidth <= 480 ? '1.1rem' : '1.2rem',
-              backgroundColor: 'var(--primary-blue)',
-              color: 'white',
+              backgroundColor: !userAnswer.trim() ? 'var(--neutral-300)' : 'var(--primary-blue)',
+              color: !userAnswer.trim() ? 'var(--neutral-500)' : 'white',
               border: 'none',
               borderRadius: '16px',
-              cursor: 'pointer',
+              cursor: !userAnswer.trim() ? 'not-allowed' : 'pointer',
               fontWeight: '600',
               fontFamily: 'Inter, sans-serif',
               minWidth: window.innerWidth <= 480 ? '100%' : 'auto',
-              boxShadow: '0 4px 8px rgba(0, 102, 204, 0.3)',
-              transition: 'all 0.2s ease'
+              boxShadow: !userAnswer.trim() ? 'none' : '0 4px 8px rgba(0, 102, 204, 0.3)',
+              transition: 'all 0.2s ease',
+              opacity: !userAnswer.trim() ? 0.6 : 1
             }}
             onMouseOver={(e) => {
-              (e.target as HTMLElement).style.backgroundColor = 'var(--primary-blue-hover)'
-              ;(e.target as HTMLElement).style.transform = 'translateY(-1px)'
-              ;(e.target as HTMLElement).style.boxShadow = '0 6px 12px rgba(0, 102, 204, 0.4)'
+              if (userAnswer.trim()) {
+                (e.target as HTMLElement).style.backgroundColor = 'var(--primary-blue-hover)'
+                ;(e.target as HTMLElement).style.transform = 'translateY(-1px)'
+                ;(e.target as HTMLElement).style.boxShadow = '0 6px 12px rgba(0, 102, 204, 0.4)'
+              }
             }}
             onMouseOut={(e) => {
-              (e.target as HTMLElement).style.backgroundColor = 'var(--primary-blue)'
-              ;(e.target as HTMLElement).style.transform = 'translateY(0)'
-              ;(e.target as HTMLElement).style.boxShadow = '0 4px 8px rgba(0, 102, 204, 0.3)'
+              if (userAnswer.trim()) {
+                (e.target as HTMLElement).style.backgroundColor = 'var(--primary-blue)'
+                ;(e.target as HTMLElement).style.transform = 'translateY(0)'
+                ;(e.target as HTMLElement).style.boxShadow = '0 4px 8px rgba(0, 102, 204, 0.3)'
+              }
             }}
           >
             ✅ Submit
