@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["playwright-mcp", "stdio"],
+      "env": {
+        "PLAYWRIGHT_PROJECT_PATH": "/Users/vasco/Documents/eeedo/aiplayground/fishgame"
+      }
+    }
+  }
+}
+
