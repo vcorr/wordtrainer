@@ -24,42 +24,44 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
 
-  /* Configure projects for major browsers */
+  /* Configure projects for Android Chrome testing */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-    },
-
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
-
-    /* Test against mobile viewports. */
-    {
-      name: 'Mobile Chrome',
-      use: { ...devices['Pixel 5'] },
+      name: 'android-chrome-samsung-a26',
+      use: {
+        ...devices['Galaxy S9+'], // Close to Samsung A26 specs
+        viewport: { width: 360, height: 640 }, // Samsung A26 specific viewport
+        userAgent: 'Mozilla/5.0 (Linux; Android 12; SM-A265F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+        hasTouch: true,
+        isMobile: true,
+        deviceScaleFactor: 2.5, // Typical for mid-range Android phones
+      },
     },
     {
-      name: 'Mobile Safari',
-      use: { ...devices['iPhone 12'] },
+      name: 'android-chrome-pixel',
+      use: { 
+        ...devices['Pixel 5'],
+        hasTouch: true,
+        isMobile: true,
+        // Keep default Pixel 5 settings as baseline Android Chrome
+      },
     },
-
-    /* Test against branded browsers. */
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    // },
+    {
+      name: 'android-chrome-galaxy-s21',
+      use: { 
+        ...devices['Galaxy S21'],
+        hasTouch: true,
+        isMobile: true,
+        // Higher-end Android device for comparison
+      },
+    },
+    {
+      name: 'desktop-chrome-dev', 
+      use: { 
+        ...devices['Desktop Chrome'],
+        viewport: { width: 360, height: 640 }, // Mobile viewport on desktop for development
+      },
+    },
   ],
 
   /* Run your local dev server before starting the tests */

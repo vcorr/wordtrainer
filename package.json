@@ -15,6 +15,9 @@
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "test:report": "playwright show-report",
+    "test:android": "playwright test --project=android-chrome-samsung-a26",
+    "test:android-all": "playwright test --project=android-chrome-samsung-a26 --project=android-chrome-pixel --project=android-chrome-galaxy-s21",
+    "test:dev": "playwright test --project=desktop-chrome-dev --headed",
     "mcp:start": "npx playwright-mcp stdio"
   },
   "dependencies": {
