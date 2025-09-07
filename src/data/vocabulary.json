@@ -4,104 +4,867 @@
     "finnish": "kuuluisa",
     "difficultyLevel": 1,
     "category": "adjective",
-    "contextSentence": "Finland is _______ for its beautiful forests."
+    "contextSentence": "Finland is _______ for its beautiful forests and lakes."
   },
   {
-    "english": "a rock",
+    "english": "rock",
     "finnish": "kallio",
     "difficultyLevel": 1,
-    "category": "noun",
-    "contextSentence": "There is a large _______ in the garden."
+    "category": "noun", 
+    "contextSentence": "The hikers climbed up the steep _______ to reach the summit."
   },
   {
     "english": "sacred",
     "finnish": "pyhä",
     "difficultyLevel": 2,
     "category": "adjective",
-    "contextSentence": "The church is a _______ place."
+    "contextSentence": "The ancient temple was considered _______ by the local people."
   },
   {
-    "english": "a continent",
+    "english": "Aboriginal people",
+    "finnish": "aboriginaalit, Australian alkuperäisväestö",
+    "difficultyLevel": 3,
+    "category": "noun",
+    "contextSentence": "The _______ _______ have lived in Australia for thousands of years."
+  },
+  {
+    "english": "the Maoris",
+    "finnish": "maorit, Uuden-Seelannin alkuperäisväestö",
+    "difficultyLevel": 3,
+    "category": "noun",
+    "contextSentence": "_______ _______ are the indigenous people of New Zealand."
+  },
+  {
+    "english": "continent",
     "finnish": "maanosa",
     "difficultyLevel": 2,
     "category": "noun",
-    "contextSentence": "Europe is _______ with many countries."
+    "contextSentence": "Australia is both a country and a _______."
   },
   {
     "english": "by area",
     "finnish": "pinta-alaltaan",
-    "difficultyLevel": 3,
+    "difficultyLevel": 2,
     "category": "phrase",
-    "contextSentence": "Russia is the largest country _______."
+    "contextSentence": "Russia is the largest country _______ _______."
   },
   {
-    "english": "a capital",
-    "finnish": "pääkaupunki",
+    "english": "population",
+    "finnish": "väkiluku",
     "difficultyLevel": 2,
     "category": "noun",
-    "contextSentence": "Helsinki is _______ of Finland."
+    "contextSentence": "The _______ of Helsinki is about 650,000 people."
   },
   {
-    "english": "beautiful",
-    "finnish": "kaunis",
+    "english": "less",
+    "finnish": "vähemmän",
     "difficultyLevel": 1,
-    "category": "adjective",
-    "contextSentence": "The sunset was _______."
+    "category": "adverb",
+    "contextSentence": "This bag weighs _______ than the other one."
   },
   {
-    "english": "important",
-    "finnish": "tärkeä",
-    "difficultyLevel": 1,
-    "category": "adjective",
-    "contextSentence": "Education is very _______."
-  },
-  {
-    "english": "difficult",
-    "finnish": "vaikea",
-    "difficultyLevel": 1,
-    "category": "adjective",
-    "contextSentence": "The math problem was _______."
-  },
-  {
-    "english": "a forest",
-    "finnish": "metsä",
+    "english": "capital",
+    "finnish": "pääkaupunki",
     "difficultyLevel": 1,
     "category": "noun",
-    "contextSentence": "We walked through the dark _______."
+    "contextSentence": "Helsinki is the _______ city of Finland."
   },
   {
-    "english": "a lake",
-    "finnish": "järvi",
-    "difficultyLevel": 1,
-    "category": "noun",
-    "contextSentence": "Finland has thousands of _______."
+    "english": "protect",
+    "finnish": "suojella",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "We must _______ our environment for future generations."
   },
   {
-    "english": "a student",
-    "finnish": "opiskelija",
-    "difficultyLevel": 1,
-    "category": "noun",
-    "contextSentence": "She is _______ at the university."
-  },
-  {
-    "english": "to study",
-    "finnish": "opiskella",
+    "english": "dry",
+    "finnish": "kuivata",
     "difficultyLevel": 1,
     "category": "verb",
-    "contextSentence": "I need _______ for the exam."
+    "contextSentence": "Please _______ the dishes after washing them."
   },
   {
-    "english": "a school",
-    "finnish": "koulu",
-    "difficultyLevel": 1,
-    "category": "noun",
-    "contextSentence": "The children go to _______ every day."
+    "english": "lie",
+    "finnish": "maata",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "The cat likes to _______ in the sun (irregular: lay, lain)."
   },
   {
-    "english": "a family",
-    "finnish": "perhe",
+    "english": "lay",
+    "finnish": "maata (past)",
+    "difficultyLevel": 3,
+    "category": "verb",
+    "contextSentence": "Yesterday the cat _______ in the garden all day."
+  },
+  {
+    "english": "lain",
+    "finnish": "maata (past participle)",
+    "difficultyLevel": 3,
+    "category": "verb",
+    "contextSentence": "The cat has _______ there for hours."
+  },
+  {
+    "english": "the battery is dead",
+    "finnish": "akku on lopussa",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "I can't call you because _______ _______ _______ _______."
+  },
+  {
+    "english": "loose",
+    "finnish": "löysä",
+    "difficultyLevel": 2,
+    "category": "adjective",
+    "contextSentence": "This shirt is too _______ for me."
+  },
+  {
+    "english": "comfortable",
+    "finnish": "mukava",
+    "difficultyLevel": 2,
+    "category": "adjective",
+    "contextSentence": "This chair is very _______ to sit in."
+  },
+  {
+    "english": "during",
+    "finnish": "aikana",
+    "difficultyLevel": 2,
+    "category": "preposition",
+    "contextSentence": "I like to read _______ my lunch break."
+  },
+  {
+    "english": "cottage",
+    "finnish": "mökki",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "We rent a summer _______ by the lake every year."
+  },
+  {
+    "english": "reach",
+    "finnish": "saavuttaa",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "It took us three hours to _______ the mountain peak."
+  },
+  {
+    "english": "destination",
+    "finnish": "määränpää, matkakohde",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "Paris is a popular tourist _______ in Europe."
+  },
+  {
+    "english": "visit",
+    "finnish": "vierailla",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "We plan to _______ our grandparents next weekend."
+  },
+  {
+    "english": "prefer",
+    "finnish": "pitää enemmän",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "I _______ tea over coffee in the morning."
+  },
+  {
+    "english": "the Alps",
+    "finnish": "Alpit",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "Many people go skiing in _______ _______ during winter."
+  },
+  {
+    "english": "an autumn break",
+    "finnish": "syysloma",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "Students enjoy _______ _______ _______ in October."
+  },
+  {
+    "english": "by a lake",
+    "finnish": "järven rannalla",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "Our cabin is located _______ _______ _______."
+  },
+  {
+    "english": "at the seaside",
+    "finnish": "meren rannalla",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "We spent our vacation _______ _______ _______."
+  },
+  {
+    "english": "on the beach",
+    "finnish": "rannalla",
+    "difficultyLevel": 1,
+    "category": "phrase",
+    "contextSentence": "The children are playing _______ _______ _______."
+  },
+  {
+    "english": "pass the time",
+    "finnish": "saada aika kulumaan",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "I read books to _______ _______ _______ on long flights."
+  },
+  {
+    "english": "travel",
+    "finnish": "matkustaa",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "I love to _______ to different countries and experience new cultures."
+  },
+  {
+    "english": "the Mediterranean",
+    "finnish": "Välimeri",
+    "difficultyLevel": 3,
+    "category": "noun",
+    "contextSentence": "Greece has beautiful islands in _______ _______."
+  },
+  {
+    "english": "season",
+    "finnish": "vuodenaika, ajankohta",
     "difficultyLevel": 1,
     "category": "noun",
-    "contextSentence": "My _______ lives in Tampere."
+    "contextSentence": "Summer is my favorite _______ of the year."
+  },
+  {
+    "english": "in the shade",
+    "finnish": "varjossa",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "It's cooler to sit _______ _______ _______ on hot days."
+  },
+  {
+    "english": "school's out",
+    "finnish": "koulu on päättynyt",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "The children are excited because _______ _______."
+  },
+  {
+    "english": "surf's up",
+    "finnish": "aallot ovat huippuhyvät",
+    "difficultyLevel": 3,
+    "category": "phrase",
+    "contextSentence": "The surfers rushed to the beach when they heard _______."
+  },
+  {
+    "english": "packed",
+    "finnish": "tupaten täynnä",
+    "difficultyLevel": 2,
+    "category": "adjective",
+    "contextSentence": "The beach was _______ with tourists during summer."
+  },
+  {
+    "english": "sky",
+    "finnish": "taivas",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "The _______ is clear and blue today."
+  },
+  {
+    "english": "across the country",
+    "finnish": "ympäri maata",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "The news spread _______ _______ _______ very quickly."
+  },
+  {
+    "english": "barbecue",
+    "finnish": "grilli, grilliateria",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "We're having a _______ in the backyard this weekend."
+  },
+  {
+    "english": "different from",
+    "finnish": "erilainen kuin",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "This culture is very _______ _______ ours."
+  },
+  {
+    "english": "the northern hemisphere",
+    "finnish": "pohjoinen pallonpuolisko",
+    "difficultyLevel": 3,
+    "category": "noun",
+    "contextSentence": "Finland is located in _______ _______ _______."
+  },
+  {
+    "english": "December",
+    "finnish": "joulukuu",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "Christmas is celebrated in _______ in most countries."
+  },
+  {
+    "english": "January",
+    "finnish": "tammikuu",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "_______ is the first month of the year."
+  },
+  {
+    "english": "spend",
+    "finnish": "viettää",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "We like to _______ our holidays in Italy (irregular: spent, spent)."
+  },
+  {
+    "english": "spent",
+    "finnish": "vietti/viettänyt",
+    "difficultyLevel": 3,
+    "category": "verb",
+    "contextSentence": "Last year we _______ Christmas with our relatives."
+  },
+  {
+    "english": "as soon as",
+    "finnish": "heti kun",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "Call me _______ _______ _______ you arrive."
+  },
+  {
+    "english": "the schools break up",
+    "finnish": "koulut päättyvät",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "Summer holidays begin when _______ _______ _______ _______."
+  },
+  {
+    "english": "head for",
+    "finnish": "suunnata",
+    "difficultyLevel": 2,
+    "category": "phrasal verb",
+    "contextSentence": "After work, I usually _______ _______ home."
+  },
+  {
+    "english": "coast",
+    "finnish": "rannikko",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "The west _______ of Norway has many beautiful fjords."
+  },
+  {
+    "english": "caravan",
+    "finnish": "asuntovaunu",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "They traveled across Europe in their _______."
+  },
+  {
+    "english": "mobile home",
+    "finnish": "asuntoauto",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "A _______ _______ gives you freedom to travel anywhere."
+  },
+  {
+    "english": "wheel",
+    "finnish": "pyörä",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "The car has a flat _______ and needs to be fixed."
+  },
+  {
+    "english": "beach umbrella",
+    "finnish": "aurinkovarjo",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "We set up a _______ _______ to get some shade."
+  },
+  {
+    "english": "surfboard",
+    "finnish": "lainelauta",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "He carried his _______ down to the water."
+  },
+  {
+    "english": "gear",
+    "finnish": "välineet, varusteet",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "Don't forget to pack your camping _______."
+  },
+  {
+    "english": "strap",
+    "finnish": "kiinnittää",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "Please _______ your seatbelt before we start driving."
+  },
+  {
+    "english": "roof rack",
+    "finnish": "kattoteline",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "We put the bicycles on the _______ _______ for our trip."
+  },
+  {
+    "english": "vehicle",
+    "finnish": "kulkuväline",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "A bicycle is an environmentally friendly _______."
+  },
+  {
+    "english": "pack",
+    "finnish": "pakata",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "I need to _______ my suitcase for tomorrow's trip."
+  },
+  {
+    "english": "full of stuff",
+    "finnish": "täynnä tavaroita",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "My backpack is _______ _______ _______ from the hike."
+  },
+  {
+    "english": "Aussie",
+    "finnish": "australialainen",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "My friend is an _______ from Sydney."
+  },
+  {
+    "english": "think nothing of",
+    "finnish": "ei pidä minään",
+    "difficultyLevel": 3,
+    "category": "phrase",
+    "contextSentence": "Australians _______ _______ _______ driving 500 kilometers."
+  },
+  {
+    "english": "up to",
+    "finnish": "jopa",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "The temperature can reach _______ _______ 40 degrees in summer."
+  },
+  {
+    "english": "used to",
+    "finnish": "tottunut",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "I'm not _______ _______ this hot weather yet."
+  },
+  {
+    "english": "rent",
+    "finnish": "vuokrata",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "We decided to _______ a car for our vacation."
+  },
+  {
+    "english": "cabin",
+    "finnish": "mökki",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "The _______ in the woods was very peaceful."
+  },
+  {
+    "english": "popular",
+    "finnish": "suosittu",
+    "difficultyLevel": 1,
+    "category": "adjective",
+    "contextSentence": "Pizza is a very _______ food around the world."
+  },
+  {
+    "english": "coastal",
+    "finnish": "rannikko-",
+    "difficultyLevel": 2,
+    "category": "adjective",
+    "contextSentence": "Many _______ cities depend on fishing and tourism."
+  },
+  {
+    "english": "drive",
+    "finnish": "ajomatka",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "It's a beautiful _______ through the mountains."
+  },
+  {
+    "english": "return",
+    "finnish": "palata",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "We will _______ home next Sunday evening."
+  },
+  {
+    "english": "emigrate",
+    "finnish": "muuttaa maasta",
+    "difficultyLevel": 3,
+    "category": "verb",
+    "contextSentence": "Many people choose to _______ for better opportunities."
+  },
+  {
+    "english": "Lebanon",
+    "finnish": "Libanon",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "_______ is a country in the Middle East."
+  },
+  {
+    "english": "years ago",
+    "finnish": "vuosia sitten",
+    "difficultyLevel": 1,
+    "category": "phrase",
+    "contextSentence": "I visited that place many _______ _______."
+  },
+  {
+    "english": "describe",
+    "finnish": "kuvailla",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "Can you _______ what the suspect looked like?"
+  },
+  {
+    "english": "boogie board",
+    "finnish": "boogielauta",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "A _______ _______ is smaller than a surfboard."
+  },
+  {
+    "english": "at sunrise",
+    "finnish": "auringonnousun aikaan",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "The fishermen leave the harbor _______ _______."
+  },
+  {
+    "english": "wave",
+    "finnish": "aalto",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "The surfer rode the big _______ all the way to shore."
+  },
+  {
+    "english": "otherwise",
+    "finnish": "muussa tapauksessa",
+    "difficultyLevel": 2,
+    "category": "adverb",
+    "contextSentence": "Hurry up, _______ we'll be late for the movie."
+  },
+  {
+    "english": "cricket",
+    "finnish": "kriketti",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "_______ is very popular in England and Australia."
+  },
+  {
+    "english": "repeat",
+    "finnish": "toistaa",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "Could you please _______ the question?"
+  },
+  {
+    "english": "daily",
+    "finnish": "päivittäin",
+    "difficultyLevel": 2,
+    "category": "adverb",
+    "contextSentence": "I exercise _______ to stay healthy."
+  },
+  {
+    "english": "kite",
+    "finnish": "leija",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "The children flew their colorful _______ in the park."
+  },
+  {
+    "english": "fly",
+    "finnish": "lennättää, lentää",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "Birds _______ south for the winter (irregular: flew, flown)."
+  },
+  {
+    "english": "flew",
+    "finnish": "lensi/lennätti",
+    "difficultyLevel": 3,
+    "category": "verb",
+    "contextSentence": "The plane _______ over the mountains yesterday."
+  },
+  {
+    "english": "flown",
+    "finnish": "lentänyt/lennättänyt",
+    "difficultyLevel": 3,
+    "category": "verb",
+    "contextSentence": "I have _______ to many countries in my life."
+  },
+  {
+    "english": "lighthouse",
+    "finnish": "majakka",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "The _______ guided ships safely to the harbor."
+  },
+  {
+    "english": "according to Nick",
+    "finnish": "Nickin mukaan",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "_______ _______ _______, the weather will be sunny tomorrow."
+  },
+  {
+    "english": "chick-magnet",
+    "finnish": "tyttömagneetti",
+    "difficultyLevel": 3,
+    "category": "noun",
+    "contextSentence": "He thinks his new car is a real _______."
+  },
+  {
+    "english": "come up to us",
+    "finnish": "tulla luoksemme",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "A friendly dog decided to _______ _______ _______ _______."
+  },
+  {
+    "english": "pretend",
+    "finnish": "teeskenellä",
+    "difficultyLevel": 2,
+    "category": "verb",
+    "contextSentence": "Children often _______ to be superheroes when they play."
+  },
+  {
+    "english": "interested in",
+    "finnish": "kiinnostunut",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "I'm really _______ _______ learning new languages."
+  },
+  {
+    "english": "obviously",
+    "finnish": "ilmiselvästi",
+    "difficultyLevel": 2,
+    "category": "adverb",
+    "contextSentence": "_______, she was tired after the long journey."
+  },
+  {
+    "english": "put up",
+    "finnish": "pystyttää",
+    "difficultyLevel": 2,
+    "category": "phrasal verb",
+    "contextSentence": "They decided to _______ _______ a tent by the lake."
+  },
+  {
+    "english": "put",
+    "finnish": "laittaa",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "Please _______ the book on the table (irregular: put, put)."
+  },
+  {
+    "english": "plastic",
+    "finnish": "muovi-",
+    "difficultyLevel": 1,
+    "category": "adjective",
+    "contextSentence": "We should reduce our use of _______ bags."
+  },
+  {
+    "english": "Christmas tree",
+    "finnish": "joulukuusi",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "We decorated the _______ _______ with lights and ornaments."
+  },
+  {
+    "english": "coloured lights",
+    "finnish": "värivalot",
+    "difficultyLevel": 2,
+    "category": "noun",
+    "contextSentence": "The house was decorated with bright _______ _______."
+  },
+  {
+    "english": "gift",
+    "finnish": "lahja",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "She gave me a beautiful _______ for my birthday."
+  },
+  {
+    "english": "on Christmas Eve",
+    "finnish": "jouluaattona",
+    "difficultyLevel": 1,
+    "category": "phrase",
+    "contextSentence": "We open our presents _______ _______ _______."
+  },
+  {
+    "english": "the next morning",
+    "finnish": "seuraavana aamuna",
+    "difficultyLevel": 1,
+    "category": "phrase",
+    "contextSentence": "_______ _______ _______ we woke up early to see the sunrise."
+  },
+  {
+    "english": "Muslim",
+    "finnish": "islaminuskoinen",
+    "difficultyLevel": 2,
+    "category": "adjective",
+    "contextSentence": "The _______ community celebrates Ramadan each year."
+  },
+  {
+    "english": "celebrate",
+    "finnish": "juhlia",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "We always _______ New Year with fireworks."
+  },
+  {
+    "english": "invite over",
+    "finnish": "kutsua käymään",
+    "difficultyLevel": 2,
+    "category": "phrasal verb",
+    "contextSentence": "Let's _______ _______ our neighbors for dinner."
+  },
+  {
+    "english": "family",
+    "finnish": "perhe, suku",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "My _______ gets together every Christmas."
+  },
+  {
+    "english": "Christmas Day",
+    "finnish": "joulupäivä",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "_______ _______ is December 25th in most countries."
+  },
+  {
+    "english": "ever since",
+    "finnish": "aina siitä lähtien",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "_______ _______ that day, they have been best friends."
+  },
+  {
+    "english": "bring",
+    "finnish": "tuoda",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "Please _______ your passport to the airport (irregular: brought, brought)."
+  },
+  {
+    "english": "brought",
+    "finnish": "toi/tuonut",
+    "difficultyLevel": 3,
+    "category": "verb",
+    "contextSentence": "She _______ flowers for her grandmother yesterday."
+  },
+  {
+    "english": "weird",
+    "finnish": "outo, kummallinen",
+    "difficultyLevel": 2,
+    "category": "adjective",
+    "contextSentence": "That's a really _______ noise coming from the kitchen."
+  },
+  {
+    "english": "Lebanese",
+    "finnish": "libanonilainen",
+    "difficultyLevel": 2,
+    "category": "adjective",
+    "contextSentence": "We went to a _______ restaurant and tried new dishes."
+  },
+  {
+    "english": "dessert",
+    "finnish": "jälkiruoka",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "Ice cream is my favorite _______ in summer."
+  },
+  {
+    "english": "share",
+    "finnish": "jakaa",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "Let's _______ this pizza between the four of us."
+  },
+  {
+    "english": "special",
+    "finnish": "erityinen",
+    "difficultyLevel": 1,
+    "category": "adjective",
+    "contextSentence": "Today is a very _______ day for our family."
+  },
+  {
+    "english": "each",
+    "finnish": "jokainen",
+    "difficultyLevel": 1,
+    "category": "pronoun",
+    "contextSentence": "_______ student needs to bring their own lunch."
+  },
+  {
+    "english": "prepare",
+    "finnish": "valmistaa",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "It takes time to _______ a good meal."
+  },
+  {
+    "english": "the kind of food",
+    "finnish": "sellaista ruokaa",
+    "difficultyLevel": 2,
+    "category": "phrase",
+    "contextSentence": "That's _______ _______ _______ _______ I really enjoy eating."
+  },
+  {
+    "english": "especially",
+    "finnish": "erityisesti",
+    "difficultyLevel": 2,
+    "category": "adverb",
+    "contextSentence": "I love all fruits, _______ strawberries."
+  },
+  {
+    "english": "on holiday",
+    "finnish": "lomalla",
+    "difficultyLevel": 1,
+    "category": "phrase",
+    "contextSentence": "We're going _______ _______ to Spain next month."
+  },
+  {
+    "english": "mean",
+    "finnish": "tarkoittaa",
+    "difficultyLevel": 1,
+    "category": "verb",
+    "contextSentence": "What does this word _______ in English? (irregular: meant, meant)"
+  },
+  {
+    "english": "meant",
+    "finnish": "tarkoitti/tarkoittanut",
+    "difficultyLevel": 3,
+    "category": "verb",
+    "contextSentence": "I _______ to call you yesterday but forgot."
+  },
+  {
+    "english": "dip in and out of the sea",
+    "finnish": "pulahdella mereen",
+    "difficultyLevel": 3,
+    "category": "phrase",
+    "contextSentence": "The children love to _______ _______ _______ _______ _______ _______ _______."
+  },
+  {
+    "english": "swimming pool",
+    "finnish": "uima-allas",
+    "difficultyLevel": 1,
+    "category": "noun",
+    "contextSentence": "The hotel has a beautiful outdoor _______ _______."
+  },
+  {
+    "english": "cool off",
+    "finnish": "viilentyä",
+    "difficultyLevel": 2,
+    "category": "phrasal verb",
+    "contextSentence": "Let's jump in the water to _______ _______."
   }
 ]
