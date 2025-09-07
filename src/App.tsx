@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { VOCABULARY_PAIRS, INITIAL_GAME_STATE, VocabularyPair, GameState } from './gameTypes'
+import { VOCABULARY_PAIRS, INITIAL_GAME_STATE, GameState } from './gameTypes'
 
 function App() {
   const [gameState, setGameState] = useState<GameState>(INITIAL_GAME_STATE)
@@ -227,8 +227,8 @@ function App() {
               boxShadow: '0 2px 6px rgba(0,122,204,0.3)',
               transition: 'all 0.2s ease'
             }}
-            onMouseOver={(e) => e.target.style.backgroundColor = '#0056b3'}
-            onMouseOut={(e) => e.target.style.backgroundColor = '#007acc'}
+            onMouseOver={(e) => (e.target as HTMLElement).style.backgroundColor = '#0056b3'}
+            onMouseOut={(e) => (e.target as HTMLElement).style.backgroundColor = '#007acc'}
           >
             Vastaa
           </button>
